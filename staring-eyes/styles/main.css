@@ -1,0 +1,48 @@
+html {
+     scroll-behavior: smooth;
+}
+body {
+     background: white;
+     display: grid;
+     place-items: center;
+     place-items: center;
+     user-select: none;
+     cursor: url("/images/asuna.png") 64 64, crosshair;
+     width: 100vw;
+}
+
+#head {
+     background-color: white;
+     z-index: -2;
+     height: 100vh;
+     width: 100vw;
+     display: grid;
+     place-items: center;
+     place-items: center;
+     position: static;
+}
+#face {
+     position: absolute;
+     background: transparent;
+     height: 100vh;
+     width: 100vw;
+     display: grid;
+     place-items: center;
+     place-items: center;
+}
+#eyes {
+     position: absolute;
+     top: 0;
+     z-index: -1;
+     height: 100vh;
+     width: 100vw;
+     display: grid;
+     place-items: center;
+     place-items: center;
+     transition-duration: 100ms;
+}
+
+/* body:hover #eyes {
+     transition-duration: 500ms;
+     translate: 10px 10px;
+} */
