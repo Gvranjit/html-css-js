@@ -1,0 +1,17 @@
+.fullscreen-text {
+     display: grid;
+     place-content: center;
+     height: 100vh;
+}
+h1 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 100px;
+     opacity: 0.1;
+     transition: 1s;
+}
+
+.animate {
+     color: purple;
+     opacity: 1;
+     translate: -50px;
+}
